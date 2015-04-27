@@ -8,6 +8,7 @@
 <title>Welcome</title>
 </head>
 <body>
+
 	<section>
 		<div class="jumbotron">
 			<div class="container">
@@ -16,5 +17,6 @@
 			</div>
 		</div>
 	</section>
+
 </body>
 </html>
