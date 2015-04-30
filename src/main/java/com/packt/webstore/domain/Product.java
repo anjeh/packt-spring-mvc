@@ -134,5 +134,4 @@ public class Product {
 	public String toString() {
 		return "Produt [productId=" + productId + ", name=" + name +"]";
 	}
-
 }

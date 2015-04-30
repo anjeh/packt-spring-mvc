@@ -22,5 +22,4 @@ public class OrderServiceImpl implements OrderService {
 		
 		productById.setUnitsInStock(productById.getUnitsInStock() - quantity);
 	}
-
 }
