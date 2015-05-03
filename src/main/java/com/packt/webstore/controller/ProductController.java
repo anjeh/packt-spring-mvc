@@ -9,12 +9,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.packt.webstore.domain.Product;
 import com.packt.webstore.domain.repository.ProductRepository;
+import com.packt.webstore.service.ProductService;
 
 @Controller
 public class ProductController {
 	
 	@Autowired
-	private ProductRepository productRepository;
+	private ProductService productService;
 	
 	@RequestMapping("/products")
 	public String list(Model model) {
@@ -24,7 +25,7 @@ public class ProductController {
 		iphone.setManufacturer("Apple");
 		iphone.setUnitsInStock(1000);
 		
-		model.addAttribute("products", productRepository.getAllProducts());
+		model.addAttribute("products", productService.getAllProducts());
 		
 		return "products";
 	}
