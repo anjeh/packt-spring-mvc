@@ -19,4 +19,8 @@ public class CustomerServiceImpl implements CustomerService {
 		return customerRepository.getAllCustomers();
 	}
 
+	public Customer getCustomerById(String productID) {
+		return customerRepository.getCustomerById(productID);
+	}
+
 }
