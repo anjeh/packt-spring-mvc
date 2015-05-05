@@ -17,3 +17,4 @@ source from http://spring.io/
 
 - Chapter 1 : Configuring a Spring Development Environment
 - Chapter 2 : Spring MVC Architecture - Architecting Your Web Store
+- Chapter 3 : Control Your Store with Controllers
