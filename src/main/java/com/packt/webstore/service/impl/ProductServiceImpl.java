@@ -23,4 +23,8 @@ public class ProductServiceImpl implements ProductService {
 		return productRepository.getProductById(productID);
 	}
 
+	public List<Product> getProductsByCategory(String category) {
+		return productRepository.getProductsByCategory(category);
+	}
+
 }
