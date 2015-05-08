@@ -44,7 +44,7 @@ public class ProductController {
 	}
 	
 	@RequestMapping("/filter/{ByCriteria}")
-	public String getProductsByFilter(@MatrixVariable(pathVar="ByCriteria") Map<String,List<String>> filterParams, Model model) {
+	public String getProductsByFilter(Model model,  @MatrixVariable(pathVar="ByCriteria") Map<String,List<String>> filterParams) {
 		
 		model.addAttribute("products", productService.getProductsByFilter(filterParams));
 		
