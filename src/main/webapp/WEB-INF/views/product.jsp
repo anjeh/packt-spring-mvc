@@ -18,13 +18,14 @@
     <div class="row">
       <div class="col-md-5">
         <h3>${product.name}</h3>
-        <p>${product.description+</p>
+        <p>${product.description}</p>
         <p>
           <strong>manufacturer</strong> :
             ${product.manufacturer}
         </p>
         <p>
-          <strong>category</strong> : $ {product.category}
+          <strong>category</strong> :
+          	${product.category}
         <p>
         <p>
           <strong>Available units in stock </strong> :
