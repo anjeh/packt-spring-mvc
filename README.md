@@ -13,6 +13,13 @@
 ![Alt Text](http://docs.spring.io/spring-framework/docs/2.5.3/reference/images/mvc.png)©
 source from http://spring.io/
 
+####Development environment
+-JDK 7
+-Spring Tool Suit IDE 
+-Apache Maven 3.2.1
+-Tomcat 7.0
+
+
 #### Here is my progress in this book :
 
 - Chapter 1 : Configuring a Spring Development Environment
