@@ -14,10 +14,10 @@
 source from http://spring.io/
 
 ####Development environment
--JDK 7
--Spring Tool Suit IDE 
--Apache Maven 3.2.1
--Tomcat 7.0
+- JDK 7
+- Spring Tool Suit IDE
+- Apache Maven 3.2.1
+- Tomcat 7.0
 
 
 #### Here is my progress in this book :
