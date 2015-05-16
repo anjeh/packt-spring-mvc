@@ -22,5 +22,4 @@ public class CustomerServiceImpl implements CustomerService {
 	public Customer getCustomerById(String productID) {
 		return customerRepository.getCustomerById(productID);
 	}
-
 }
