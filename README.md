@@ -5,8 +5,10 @@
 
 ### Here is my playground to learn Spring MVC the pragmatic way. :smiley:
 
+
 ### Summary:
 #####This book introduces us to the web application development concept in Spring MVC using as an example a webstore
+
 
 ####Development environment
 - JDK 7
@@ -14,13 +16,16 @@
 - Apache Maven 3.2.1
 - Tomcat 7.0
 
+
 ### The layers of a Spring MVC application
+
 
 ![Alt Text](http://docs.spring.io/spring-framework/docs/2.5.3/reference/images/mvc.png)©
 source from http://spring.io/
 
 
 #### Here is my progress in this book :
+
 
 - Chapter 1 : Configuring a Spring Development Environment
 - Chapter 2 : Spring MVC Architecture - Architecting Your Web Store
