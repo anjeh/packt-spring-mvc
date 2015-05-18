@@ -9,5 +9,4 @@ public interface CustomerRepository {
 	List<Customer> getAllCustomers();
 	
 	Customer getCustomerById (String productID);  
-
 }

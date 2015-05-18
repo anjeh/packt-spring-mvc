@@ -9,5 +9,4 @@ public interface CustomerService {
 	List<Customer> getAllCustomers();
 	
 	Customer getCustomerById (String productID);
-
 }
