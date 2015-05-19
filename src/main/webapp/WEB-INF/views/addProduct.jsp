@@ -22,6 +22,7 @@
 			<fieldset>
 				<legend>Add new product</legend>
 				
+				<!--product id-->
 				<div class="form-group">
 					<label class="control-label col-lg-2 col-lg-2" for="productId">Product Id</label>
 					<div class="col-lg-10">
@@ -29,6 +30,7 @@
 					</div>
 				</div>
 				
+				<!--name-->
 				<div class="form-group">
 					<label class="control-label col-lg-2 col-lg-2" for=name>Name</label>
 					<div class="col-lg-10">
@@ -36,6 +38,7 @@
 					</div>
 				</div>
 				
+				<!--unit price-->
 				<div class="form-group">
 					<label class="control-label col-lg-2 col-lg-2" for=unitPrice>Unit price</label>
 					<div class="col-lg-10">
@@ -43,6 +46,7 @@
 					</div>
 				</div>
 				
+				<!--manufacturer-->
 				<div class="form-group">
 					<label class="control-label col-lg-2 col-lg-2" for=manufacturer>Manufacturer</label>
 					<div class="col-lg-10">
@@ -50,6 +54,7 @@
 					</div>
 				</div>
 				
+				<!--category-->
 				<div class="form-group">
 					<label class="control-label col-lg-2 col-lg-2" for=category>Category</label>
 					<div class="col-lg-10">
@@ -57,6 +62,7 @@
 					</div>
 				</div>
 				
+				<!--unit in stock-->
 				<div class="form-group">
 					<label class="control-label col-lg-2 col-lg-2" for=unitsInStock>Units in stock</label>
 					<div class="col-lg-10">
@@ -64,6 +70,7 @@
 					</div>
 				</div>
 				
+				<!--unit in order-->
 				<div class="form-group">
 					<label class="control-label col-lg-2 col-lg-2" for=unitsInOrder>Units in order</label>
 					<div class="col-lg-10">
@@ -71,6 +78,7 @@
 					</div>
 				</div>
 				
+				<!--description-->
 				<div class="form-group">
 					<label class="control-label col-lg-2" for=description>Description</label>
 					<div class="col-lg-10">
@@ -78,6 +86,7 @@
 					</div>
 				</div>
 				
+				<!--discontinued-->
 				<div class="form-group">
 					<label class="control-label col-lg-2" for=discontinued>Discontinued</label>
 					<div class="col-lg-10">
@@ -85,6 +94,7 @@
 					</div>
 				</div>
 				
+				<!--condition-->
 				<div class="form-group">
 					<label class="control-label col-lg-2" for=condition>Condition</label>
 					<div class="col-lg-10">
