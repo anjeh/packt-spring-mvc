@@ -103,7 +103,8 @@
 						<form:radiobutton id="condition" path="condition" value="Refurbished"/>Refurbished
 					</div>
 				</div>
-				
+
+				<!--Add button-->
 				<div class="form-group">
 					<div class="col-lg-offset-2 col-lg-10">
 						<input type="submit" id="btnAdd" class="brn btn-primary" value="Add"/>
