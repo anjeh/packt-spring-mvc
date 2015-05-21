@@ -71,12 +71,12 @@
 				</div>
 				
 				<!--unit in order-->
-				<div class="form-group">
-					<label class="control-label col-lg-2 col-lg-2" for=unitsInOrder>Units in order</label>
-					<div class="col-lg-10">
-						<form:input id="unitsInOrder" path="unitsInOrder" type="text" class="form:input-large"/>
-					</div>
-				</div>
+<!-- 				<div class="form-group"> -->
+<!-- 					<label class="control-label col-lg-2 col-lg-2" for=unitsInOrder>Units in order</label> -->
+<!-- 					<div class="col-lg-10"> -->
+<%-- 						<form:input id="unitsInOrder" path="unitsInOrder" type="text" class="form:input-large"/> --%>
+<!-- 					</div> -->
+<!-- 				</div> -->
 				
 				<!--description-->
 				<div class="form-group">
@@ -87,12 +87,12 @@
 				</div>
 				
 				<!--discontinued-->
-				<div class="form-group">
-					<label class="control-label col-lg-2" for=discontinued>Discontinued</label>
-					<div class="col-lg-10">
-						<form:checkbox id="discontinued" path="discontinued"/>
-					</div>
-				</div>
+<!-- 				<div class="form-group"> -->
+<!-- 					<label class="control-label col-lg-2" for=discontinued>Discontinued</label> -->
+<!-- 					<div class="col-lg-10"> -->
+<%-- 						<form:checkbox id="discontinued" path="discontinued"/> --%>
+<!-- 					</div> -->
+<!-- 				</div> -->
 				
 				<!--condition-->
 				<div class="form-group">
