@@ -31,3 +31,4 @@ source from http://spring.io/
 - Chapter 2 : Spring MVC Architecture - Architecting Your Web Store
 - Chapter 3 : Control Your Store with Controllers
 - Chapter 4 : Working with Spring Tag Libraries
+- Chapter 5 : Working with view Resolver 
