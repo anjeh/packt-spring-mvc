@@ -38,7 +38,7 @@
 								<input class="form-control" placeholder="User name" name='j_username' type="text">
 							</div>
 							<div class="form-group">
-								<input class="form-control" placeholder="Password" nam='j_password' type="password" value="">
+								<input class="form-control" placeholder="Password" name='j_password' type="password" value="">
 							</div>
 							<input class="btn btn-lg btn-success brn-block" type="submit" value="Login">
 						</fieldset>
