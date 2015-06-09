@@ -1,3 +1,9 @@
 /target/
 
 .springBeans
+
+# intellij idea specific
+*.iml
+*.ipr
+*.iws
+.idea/
