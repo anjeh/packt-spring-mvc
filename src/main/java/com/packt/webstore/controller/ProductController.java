@@ -99,6 +99,7 @@ public class ProductController {
 	
 	@InitBinder
 	public void initialiseBinder(WebDataBinder binder) {
-		binder.setDisallowedFields("unitsInOrder", "discontinued", "productImage");
+		binder.setAllowedFields("productId", "name", "unitPrice", "description", "manufacturer", "category", "unitsInStock", "condition", "productImage");
+		binder.setDisallowedFields("unitsInOrder", "discontinued");
 	}
 }
