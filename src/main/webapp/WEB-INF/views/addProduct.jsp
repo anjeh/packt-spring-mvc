@@ -113,6 +113,14 @@
 						<form:input id="productImage" path="productImage" type="file" class="form:input-large"/>
 					</div>
 				</div>
+				
+				<!--product user manual-->
+				<div class="form-group">
+					<label class="control-label col-lg-2 col-lg-2" for="userManual"> <spring:message code="addProduct.form.userManual.label"/> </label>
+					<div class="col-lg-10">
+						<form:input id="userManual" path="userManual" type="file" class="form:input-large"/>
+					</div>
+				</div>
 
 				<!--Add button-->
 				<div class="form-group">

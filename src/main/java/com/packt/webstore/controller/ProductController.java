@@ -84,11 +84,19 @@ public class ProductController {
 			throw new RuntimeException ("Attempting to bind disallowed fields: " + StringUtils.arrayToCommaDelimitedString(suppressedFields));
 		}
 		MultipartFile productImage = newProduct.getProductImage();
+		MultipartFile userManual = newProduct.getUserManual();
 		String rootDirectory = request.getSession().getServletContext().getRealPath("/");
 		
 		if (productImage != null && !productImage.isEmpty()) {
 			try {
 				productImage.transferTo(new File(rootDirectory+"resources\\images\\"+newProduct.getProductId() +".jpg"));
+			} catch (Exception e) {
+				throw new RuntimeException("Product Image saving failed", e);
+			}
+		}
+		if (userManual != null && !userManual.isEmpty()) {
+			try {
+				userManual.transferTo(new File(rootDirectory+"resources\\pdf\\"+newProduct.getProductId() +".pdf"));
 			} catch (Exception e) {
 				throw new RuntimeException("Product Image saving failed", e);
 			}
@@ -99,7 +107,7 @@ public class ProductController {
 	
 	@InitBinder
 	public void initialiseBinder(WebDataBinder binder) {
-		binder.setAllowedFields("productId", "name", "unitPrice", "description", "manufacturer", "category", "unitsInStock", "condition", "productImage");
+		binder.setAllowedFields("productId", "name", "unitPrice", "description", "manufacturer", "category", "unitsInStock", "condition", "productImage", "userManual");
 		binder.setDisallowedFields("unitsInOrder", "discontinued");
 	}
 }
